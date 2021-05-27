@@ -40,8 +40,7 @@ const defaultMenu = {
 │
 │ Uptime: *%uptime (%muptime)*
 │ Database: %rtotalreg of %totalreg
-│ Github:
-│ %github
+│ join group=https://chat.whatsapp.com/IR0FmNqxQ6m0eRp7PfthYN
 ╰────
 %readmore`.trimStart(),
   header: '╭─「 %category 」',

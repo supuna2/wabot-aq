@@ -207,7 +207,315 @@ async function _quickTest() {
   if (!global.support.ffmpeg) conn.logger.warn('Please install ffmpeg for sending videos (pkg install ffmpeg)')
   if (!global.support.ffmpegWebp) conn.logger.warn('Stickers may not animated without libwebp on ffmpeg (--enable-ibwebp while compiling ffmpeg)')
   if (!global.support.convert) conn.logger.warn('Stickers may not work without imagemagick if libwebp on ffmpeg doesnt isntalled (pkg install imagemagick)')
+}                    // Textprome //
+
+                case 'blackpink':
+
+                case 'neon':
+
+                case 'greenneon':
+
+                case 'advanceglow':
+
+                case 'futureneon':
+
+                case 'sandwriting':
+
+                case 'sandsummer':
+
+                case 'sandengraved':
+
+                case 'metaldark':
+
+                case 'neonlight':
+
+                case 'holographic':
+
+                case 'text1917':
+
+                case 'minion':
+
+                case 'deluxesilver':
+
+                case 'newyearcard':
+
+                case 'bloodfrosted':
+
+                case 'halloween':
+
+                case 'jokerlogo':
+
+                case 'fireworksparkle':
+
+                case 'natureleaves':
+
+                case 'bokeh':
+
+                case 'toxic':
+
+                case 'strawberry':
+
+                case 'box3d':
+
+                case 'roadwarning':
+
+                case 'breakwall':
+
+                case 'icecold':
+
+                case 'luxury':
+
+                case 'cloud':
+
+                case 'summersand':
+
+                case 'horrorblood':
+
+                case 'thunder':
+
+                    if (args.length == 0) return reply(`Example: ${prefix + command} LoL Human`)
+
+                    ini_txt = args.join(" ")
+
+                    getBuffer(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=${apikey}&text=${ini_txt}`).then((gambar) => {
+
+                        lolhuman.sendMessage(from, gambar, image, { quoted: lol })
+
+                    })
+
+                    break
+
+                case 'pornhub':
+
+                case 'glitch':
+
+                case 'avenger':
+
+                case 'space':
+
+                case 'ninjalogo':
+
+                case 'marvelstudio':
+
+                case 'lionlogo':
+
+                case 'wolflogo':
+
+                case 'steel3d':
+
+                case 'wallgravity':
+
+                    if (args.length == 0) return reply(`Example: ${prefix + command} LoL Human`)
+
+                    txt1 = args[0]
+
+                    txt2 = args[1]
+
+                    getBuffer(`https://api.lolhuman.xyz/api/textprome2/${command}?apikey=${apikey}&text1=${txt1}&text2=${txt2}`).then((gambar) => {
+
+                        lolhuman.sendMessage(from, gambar, image, { quoted: lol })
+
+                    })
+
+                    break
+
+                    // Photo Oxy //
+
+                case 'shadow':
+
+                case 'cup':
+
+                case 'cup1':
+
+                case 'romance':
+
+                case 'smoke':
+
+                case 'burnpaper':
+
+                case 'lovemessage':
+
+                case 'undergrass':
+
+                case 'love':
+
+                case 'coffe':
+
+                case 'woodheart':
+
+                case 'woodenboard':
+
+                case 'summer3d':
+
+                case 'wolfmetal':
+
+                case 'nature3d':
+
+                case 'underwater':
+
+                case 'golderrose':
+
+                case 'summernature':
+
+                case 'letterleaves':
+
+                case 'glowingneon':
+
+                case 'fallleaves':
+
+                case 'flamming':
+
+                case 'harrypotter':
+
+                case 'carvedwood':
+
+                    if (args.length == 0) return reply(`Example: ${prefix + command} LoL Human`)
+
+                    ini_txt = args.join(" ")
+
+                    getBuffer(`https://api.lolhuman.xyz/api/photooxy1/${command}?apikey=${apikey}&text=${ini_txt}`).then((gambar) => {
+
+                        lolhuman.sendMessage(from, gambar, image, { quoted: lol })
+
+                    })
+
+                    break
+
+                case 'tiktok':
+
+                case 'arcade8bit':
+
+                case 'battlefield4':
+
+                case 'pubg':
+
+                    if (args.length == 0) return reply(`Example: ${prefix + command} LoL Human`)
+
+                    txt1 = args[0]
+
+                    txt2 = args[1]
+
+                    getBuffer(`https://api.lolhuman.xyz/api/photooxy2/${command}?apikey=${apikey}&text1=${txt1}&text2=${txt2}`).then((gambar) => {
+
+                        lolhuman.sendMessage(from, gambar, image, { quoted: lol })
+
+                    })
+
+                    break
+
+                    // Ephoto 360 //
+
+                case 'wetglass':
+
+                case 'multicolor3d':
+
+                case 'watercolor':
+
+                case 'luxurygold':
+
+                case 'galaxywallpaper':
+
+                case 'lighttext':
+
+                case 'beautifulflower':
+
+                case 'puppycute':
+
+                case 'royaltext':
+
+                case 'heartshaped':
+
+                case 'birthdaycake':
+
+                case 'galaxystyle':
+
+                case 'hologram3d':
+
+                case 'greenneon':
+
+                case 'glossychrome':
+
+                case 'greenbush':
+
+                case 'metallogo':
+
+                case 'noeltext':
+
+                case 'glittergold':
+
+                case 'textcake':
+
+                case 'starsnight':
+
+                case 'wooden3d':
+
+                case 'textbyname':
+
+                case 'writegalacy':
+
+                case 'galaxybat':
+
+                case 'snow3d':
+
+                case 'birthdayday':
+
+                case 'goldplaybutton':
+
+                case 'silverplaybutton':
+
+                case 'freefire':
+
+                    if (args.length == 0) return reply(`Example: ${prefix + command} LoL Human`)
+
+                    ini_txt = args.join(" ")
+
+                    getBuffer(`https://api.lolhuman.xyz/api/ephoto1/${command}?apikey=${apikey}&text=${ini_txt}`).then((gambar) => {
+
+                        lolhuman.sendMessage(from, gambar, image, { quoted: lol })
+
+                    })
+
+                    break
+
+                default:
+
+                    if (isCmd) {
+
+                        reply(`Sorry bro, command *${prefix}${command}* gk ada di list *${prefix}help*`)
+
+                    }
+
+                    if (!isGroup && !isCmd && !kuis) {
+
+                        await lolhuman.updatePresence(from, Presence.composing)
+
+                        simi = await fetchJson(`https://api.lolhuman.xyz/api/simi?apikey=${apikey}&text=${budy}`)
+
+                        reply(simi.result)
+
+                    }
+
+            }
+
+        } catch (e) {
+
+            e = String(e)
+
+            if (!e.includes("this.isZero")) {
+
+                const time_error = moment.tz('Asia/Jakarta').format('HH:mm:ss')
+
+                console.log(color(time_error, "white"), color("[  ERROR  ]", "aqua"), color(e, 'red'))
+
+            }
+
+        }
+
+    })
+
 }
+
+starts()
 
 /*_quickTest()
   .then(() => conn.logger.info('Quick Test Done'))
